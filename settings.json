@@ -1,0 +1,49 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.renderIndentGuides": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "c-cpp-compile-run.should-show-notifications": false,
+    "python.showStartPage": false,
+    "editor.formatOnType": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "security.workspace.trust.untrustedFiles": "open",
+    "c-cpp-compile-run.c-flags": "-std=c99 -Wall -Wextra",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Dracula",
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontSize": 24,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "cSpell.language": "pt-br",
+    "cSpell.enabledLanguageIds": [
+        "latex",
+        "txt",
+        "plaintext"
+    ],
+    "editor.largeFileOptimizations": false,
+    "python.defaultInterpreterPath": "/bin/python3",
+}
