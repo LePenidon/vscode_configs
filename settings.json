@@ -1,8 +1,7 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook",
-        "*.pdf": "latex-workshop-pdf-hook"
+        "*.ipynb": "jupyter-notebook"
     },
     "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
@@ -20,20 +19,15 @@
         "jupyter-notebook": "right"
     },
     "vsicons.dontShowNewVersionMessage": true,
-    "latex-workshop.view.pdf.viewer": "tab",
     "security.workspace.trust.untrustedFiles": "open",
     "c-cpp-compile-run.c-flags": "-std=c99 -Wall -Wextra",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Dracula",
-    "latex-workshop.latex.outDir": "%DIR%/build",
-    "editor.fontFamily": "Fira Code",
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
     "editor.fontSize": 16,
-    "latex-workshop.message.error.show": false,
-    "latex-workshop.message.warning.show": false,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "cSpell.language": "pt-br",
@@ -55,13 +49,10 @@
         "c": true
     },
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "latex-workshop.latex.autoBuild.run": "onSave",
     "editor.defaultFormatter": "ms-python.python",
     "[python]": {
-        "editor.formatOnType": true
-    },
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java"
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -69,21 +60,9 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.accessibilitySupport": "off",
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
-        "--max-line-length",
-        "120",
-        "--experimental"
-    ],
-    "python.formatting.yapfArgs": [
-        "--style",
-        "{based_on_style: chromium, indent_width: 20}"
-    ],
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "100"
-    ],
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "explorer.compactFolders": false,
+    "githubPullRequests.pullBranch": "never"
 }
