@@ -4,9 +4,9 @@
 # CONFIGURAÇÕES PÓS-INSTALAÇÃO LINUX MINT 21.3 CINNAMON - MODO BASH
 # ----------------------------------------------------------------------------
 # Como usar:
-#   1. Copie todo este conteúdo e salve em um arquivo (ex: `pos-install-mint.sh`)
+#   1. Copie todo este conteúdo e salve em um arquivo (ex: `linux_configs.sh`)
 #   2. Abra o terminal no diretório do arquivo e execute:
-#      bash pos-install-mint.sh
+#      bash linux_configs.sh
 # ----------------------------------------------------------------------------
 
 echo -e "\n\033[1;32m=== INICIANDO CONFIGURAÇÕES PÓS-INSTALAÇÃO ===\033[0m\n"
@@ -57,6 +57,20 @@ sudo timeshift --create --comments "Backup pós-instalação" --tags D
 echo -e "\033[1;34m[8/8] Aplicando personalizações...\033[0m"
 gsettings set org.cinnamon.theme name "Mint-Y-Dark"
 gsettings set org.cinnamon.desktop.keybindings.wm maximize "['<Super>Up']"
+
+# [9] EXECUTANDO COMANDOS ADICIONAIS
+echo -e "\033[1;34m[9/9] Executando comandos adicionais...\033[0m"
+sudo apt install curl
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+sudo apt install brave-browser
+uname -r
+inxi -G
+sudo prime-select intel
+flatpak install flathub com.stremio.Stremio
+flatpak run com.stremio.Stremio
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.visualstudio.code
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
