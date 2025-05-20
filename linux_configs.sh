@@ -68,9 +68,7 @@ uname -r
 inxi -G
 sudo prime-select intel
 flatpak install flathub com.stremio.Stremio
-flatpak run com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.visualstudio.code
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
