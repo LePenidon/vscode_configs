@@ -69,6 +69,7 @@ inxi -G
 sudo prime-select intel
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
+gsettings set org.nemo.preferences show-image-thumbnails 'always'
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
