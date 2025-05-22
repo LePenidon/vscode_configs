@@ -70,7 +70,7 @@ sudo prime-select intel
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
 gsettings set org.nemo.preferences show-image-thumbnails 'always'
-xinput set-prop 12 "libinput Scrolling Pixel Distance" 30
+echo 'xinput set-prop 12 "libinput Scrolling Pixel Distance" 30' >> ~/.xprofile
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
