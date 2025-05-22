@@ -6,7 +6,7 @@
 # Como usar:
 #   1. Copie todo este conteúdo e salve em um arquivo (ex: `linux_configs.sh`)
 #   2. Abra o terminal no diretório do arquivo e execute:
-#      bash linux_configs.sh
+#      bash init.sh
 # ----------------------------------------------------------------------------
 
 echo -e "\n\033[1;32m=== INICIANDO CONFIGURAÇÕES PÓS-INSTALAÇÃO ===\033[0m\n"
@@ -69,8 +69,6 @@ inxi -G
 sudo prime-select intel
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
-gsettings set org.nemo.preferences show-image-thumbnails 'always'
-echo 'xinput set-prop 12 "libinput Scrolling Pixel Distance" 30' >> ~/.xprofile
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
