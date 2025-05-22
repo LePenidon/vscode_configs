@@ -1,11 +1,11 @@
 [legacy/keybindings]
 close-tab='<Primary>w'
-move-tab-left='<Primary>Right'
-move-tab-right='<Primary>Left'
+move-tab-left='<Shift>Down'
+move-tab-right='<Primary>Up'
 new-tab='<Primary>t'
 new-window='<Primary><Shift>n'
-next-tab='<Primary>Down'
-prev-tab='<Primary>Up'
+next-tab='<Primary>Right'
+prev-tab='<Primary>Left'
 
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 font='FiraCode Nerd Font 12'
