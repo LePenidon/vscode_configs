@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=oRHSrnQueak
+
 cd /etc/samba/
 mv smb.conf smb.conf.old
 sudo mv smb.conf smb.conf.old
