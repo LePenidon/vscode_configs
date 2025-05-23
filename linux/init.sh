@@ -69,6 +69,7 @@ inxi -G
 sudo prime-select intel
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.brave.Browser
 
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
