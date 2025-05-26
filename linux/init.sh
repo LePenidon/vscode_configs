@@ -60,13 +60,8 @@ gsettings set org.cinnamon.desktop.keybindings.wm maximize "['<Super>Up']"
 
 # [9] EXECUTANDO COMANDOS ADICIONAIS
 echo -e "\033[1;34m[9/9] Executando comandos adicionais...\033[0m"
-sudo apt install curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt install brave-browser
-uname -r
-inxi -G
-sudo prime-select intel
+
+flatpak install flathub com.brave.Browser
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.brave.Browser
