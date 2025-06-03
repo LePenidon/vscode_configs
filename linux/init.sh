@@ -67,11 +67,14 @@ flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.brave.Browser
 flatpak install flathub com.spotify.Client
 
-flatpak update
+flatpak install flathub org.freedesktop.Platform.VulkanLayer.games
+flatpak install flathub com.valvesoftware.Steam.CompatibilityTool.Proton-GE
+flatpak install flathub com.valvesoftware.Steam
+flatpak override --user --filesystem=/run/media com.valvesoftware.Steam
 
 sudo apt install gnome-tweaks
 sudo apt install dconf-editor -y
-sudo
+
 # FINALIZAÇÃO
 echo -e "\n\033[1;32m=== CONCLUÍDO! ===\033[0m"
 echo -e "Recomendações:\n1. Reinicie o sistema.\n2. Use 'flatpak install' para apps adicionais.\n3. Configure o Timeshift para backups automáticos.\n"
