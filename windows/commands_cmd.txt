@@ -1,4 +1,4 @@
-cmd adm
+sfc /scannow
 
 w32tm /register
 sc start W32Time
