@@ -1,0 +1,11 @@
+UnattendedWinstall:
+    https://github.com/memstechtips/UnattendedWinstall
+
+Tutorial script apps:
+    https://www.youtube.com/watch?v=cyb_869Gr2c
+
+Meu github:
+    https://github.com/LePenidon/vscode_configs
+
+Syncio:
+    https://github.com/Bill-Stewart/SyncthingWindowsSetup/releases/tag/v1.29.1
