@@ -11,3 +11,6 @@ wget -P ~/.local/share/fonts "https://github.com/ryanoasis/nerd-fonts/releases/d
 unzip ~/.local/share/fonts/FiraCode.zip -d ~/.local/share/fonts/FiraCode
 rm ~/.local/share/fonts/FiraCode.zip
 fc-cache -fv
+
+git config user.name lepenidon
+git config user.email penido1000@gmail.com
