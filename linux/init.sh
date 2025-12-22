@@ -64,8 +64,8 @@ echo -e "\033[1;34m[9/9] Executando comandos adicionais...\033[0m"
 flatpak install flathub com.brave.Browser
 flatpak install flathub com.stremio.Stremio
 flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.brave.Browser
 flatpak install flathub com.spotify.Client
+flatpak install flathub com.visualstudio.code
 
 flatpak install flathub org.freedesktop.Platform.VulkanLayer.games
 flatpak install flathub com.valvesoftware.Steam.CompatibilityTool.Proton-GE
