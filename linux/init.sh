@@ -72,6 +72,20 @@ flatpak install flathub com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 flatpak install flathub com.valvesoftware.Steam
 flatpak override --user --filesystem=/run/media com.valvesoftware.Steam
 
+#DIOLINUX
+flatpak install flathub io.missioncenter.MissionCenter
+flatpak install flathub io.github.flattool.Warehouse
+flatpak install flathub org.localsend.localsend_app
+curl -fsSL https://linux.toys/install.sh | bash
+# flatpak install flathub md.obsidian.Obsidian
+# flatpak install flathub com.company.ZenBrowser
+# flatpak install flathub org.enpass.Authenticator
+# flatpak install flathub ch.protonmail.protonauthenticator
+# flatpak install flathub com.github.xduai.WithoutBG
+# flatpak install flathub org.excalidraw.Excalidraw
+# flatpak install flathub com.github.winepkg.WinBottler
+# flatpak install flathub org.flatpakstore.Bazzar
+
 sudo apt install gnome-tweaks
 sudo apt install dconf-editor -y
 
