@@ -77,7 +77,7 @@ flatpak install flathub io.github.thetumultuousunicornofdarkness.cpu-x
 flatpak install flathub io.missioncenter.MissionCenter
 flatpak install flathub io.github.flattool.Warehouse
 flatpak install flathub org.localsend.localsend_app
-curl -fsSL https://linux.toys/install.sh | bash
+# curl -fsSL https://linux.toys/install.sh | bash
 # flatpak install flathub md.obsidian.Obsidian
 # flatpak install flathub com.company.ZenBrowser
 # flatpak install flathub org.enpass.Authenticator
