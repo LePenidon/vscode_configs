@@ -71,6 +71,7 @@ flatpak install flathub org.freedesktop.Platform.VulkanLayer.games
 flatpak install flathub com.valvesoftware.Steam.CompatibilityTool.Proton-GE
 flatpak install flathub com.valvesoftware.Steam
 flatpak override --user --filesystem=/run/media com.valvesoftware.Steam
+flatpak install flathub io.github.thetumultuousunicornofdarkness.cpu-x
 
 #DIOLINUX
 flatpak install flathub io.missioncenter.MissionCenter
