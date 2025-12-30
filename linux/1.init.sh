@@ -50,8 +50,8 @@ sudo ufw enable
 sudo ufw default deny incoming
 
 # [7] CRIAR BACKUP INICIAL (TIMESHIFT)
-echo -e "\033[1;34m[7/8] Criando backup inicial com Timeshift...\033[0m"
-sudo timeshift --create --comments "Backup pós-instalação" --tags D
+# echo -e "\033[1;34m[7/8] Criando backup inicial com Timeshift...\033[0m"
+# sudo timeshift --create --comments "Backup pós-instalação" --tags D
 
 # [8] PERSONALIZAR CINNAMON
 echo -e "\033[1;34m[8/8] Aplicando personalizações...\033[0m"
