@@ -20,3 +20,10 @@ fc-cache -fv
 
 git config user.name lepenidon
 git config user.email penido1000@gmail.com
+
+xdg-mime default vlc.desktop video/x-msvideo
+xdg-mime default vlc.desktop video/mp4
+xdg-mime default vlc.desktop video/x-matroska
+xdg-mime default vlc.desktop video/webm
+xdg-mime default vlc.desktop video/x-flv
+xdg-mime default vlc.desktop application/ogg
