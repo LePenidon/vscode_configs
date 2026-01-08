@@ -36,7 +36,7 @@ fi
 # [4] INSTALAR PACOTES ÚTEIS
 echo -e "\033[1;34m[4/8] Instalando pacotes essenciais...\033[0m"
 sudo apt install -y \
-    vlc gimp flameshot timeshift gnome-disk-utility \
+    vlc gimp gnome-disk-utility \
     git neofetch tlp tlp-rdw ubuntu-restricted-extras \
     libavcodec-extra flatpak
 
